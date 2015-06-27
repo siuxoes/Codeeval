@@ -6,8 +6,8 @@ def is_prime(a):
 def sumPrimes():
     suma = 0
     primeNumbers = 0
-    i = 2
-    while primeNumbers < 1000:
+    i = 2 # We start in number 2, because it is the first prime number
+    while primeNumbers < 1000: # we loop until we get our first 1000 prime numbers
         if is_prime(i):
             suma += i
             i += 1
